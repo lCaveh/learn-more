@@ -1,0 +1,12 @@
+$(function(){
+  $(".clickable").click(function(){
+    $(".visible-text").slideDown(1000);
+  });
+  $(".clickable2").click(function(){
+    $(".visible-img").fadeIn(1000);
+  });
+  $(".clickable3").click(function(){
+    $(".visible-img").fadeOut(1000);
+    $(".visible-text").slideUp(1000);
+  });
+})
